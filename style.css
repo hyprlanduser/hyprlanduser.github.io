@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  background: #121212;
+  color: #b3b3ff;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.top-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-align: left;
+}
+
+.builds{
+      color: #b3b3ff;
+      font-family: 'JetBrains Mono', sans-serif;
+}
+
+.top-left h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.top-left p {
+  font-size: 14px;
+  margin: 4px 0 0;
+  color: #8a8aff;
+}
+
+.embed-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 120px;
+  flex-wrap: wrap;
+}
+
+.embed-card {
+  background-color: #1f1f1f;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(147, 149, 211, 0.2);
+}
+
+.social-footer {
+  margin-top: 60px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.social-icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons li a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  color: #b3b3ff;
+  border: 1px solid #444;
+  border-radius: 10px;
+  font-size: 22px;
+  transition: 0.3s ease;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.social-icons li a:hover {
+  background-color: #272744;
+  color: white;
+  transform: scale(1.1);
+}
+
+nav {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.nav-link {
+  color: #b3b3ff;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #8a8aff;
+}
+
+.nav-link.active {
+  font-weight: 600;
+  color: #8a8aff;
+  pointer-events: none;
+}
+
+.gun-builds {
+  margin: 80px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+  color: #b3b3ff;
+  font-family: 'JetBrains Mono', monospace;
+  text-align: center;
+}
+
+.gun-builds h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #8a8aff;
+}
+
+.builds-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.build-card {
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 0 15px rgba(147, 149, 211, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.build-card:hover {
+  transform: translateY(-8px) scale(1.05);
+}
+
+.build-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.build-card h3 {
+  margin: 10px 0 6px;
+  font-size: 20px;
+  color: #b3b3ff;
+}
+
+.build-card p {
+  font-size: 14px;
+  color: #9999cc;
+}
+
+.build-card a {
+  display: block;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.build-card a:hover img {
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
